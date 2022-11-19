@@ -22,6 +22,8 @@
 	<p class="text-primary mt-[3rem]">
 		Welcome to the <strong class="rounded">Aesculapius</strong> bot!
 	</p>
+	<div id="chatbot">initial content</div>
+	<script type="text/javascript" src="static/js/chatbot.js"></script>
 	<!-- <Users/> -->
 </div>
 </div>
