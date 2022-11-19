@@ -13,6 +13,7 @@ module.exports = {
         'background': '#1a202c',
         'primary': '#808080',
         'title': '#404040',
+        'offwhite': '#f8f8f8',
       },
     },
   },
