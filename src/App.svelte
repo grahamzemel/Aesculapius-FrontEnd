@@ -1,23 +1,16 @@
 <script lang="ts">
-	import ModeSwitcher from './ModeSwitcher.svelte';
 	import Tailwindcss from './Tailwindcss.svelte';
 	import Users from './Users.svelte';
-	export let name: string;
-	
+	import Header from './Header.svelte';
+	import Intro from './Intro.svelte';
 </script>
-<style>
-	.custom-style {
-		@apply italic;
-	}
-</style>
 <Tailwindcss />
-<ModeSwitcher />
+<Header />
 <main class="p-4 mx-auto text-center max-w-xl">
-	<h1 class="uppercase text-6xl leading-normal font-thin text-svelte">Hello {name}!</h1>
-	<p class="custom-style mt-[3rem]">
-		Visit the
-		<a href="https://svelte.dev/tutorial" class="text-blue-500 underline">Svelte tutorial</a>
-		to learn how to build Svelte apps.
+	<h1 class="uppercase text-6xl leading-normal font-thin text-title">Hello human!</h1>
+	<p class="text-primary mt-[3rem]">
+		Welcome to the <strong class="rounded">Aesculapius</strong> bot!
 	</p>
-	<Users/>
+	<!-- <Users/> -->
 </main>
+<Intro />

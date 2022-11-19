@@ -10,7 +10,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        svelte: '#ff3e00',
+        'background': '#1a202c',
+        'primary': '#808080',
+        'title': '#404040',
       },
     },
   },

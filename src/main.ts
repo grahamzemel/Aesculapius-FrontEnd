@@ -7,7 +7,4 @@ const app = new App({
 	}
 });
 
-function getConvertedData(): Promise {
-	// API call will go here.
-}
 export default app;
