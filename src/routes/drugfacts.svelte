@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
-        <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">ALLERGEN MEDICATIONS</h2>
+        <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">ALLERGEN</h2>
         <div class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
             <DrugPoint drugLink="https://www.allegra.com/en-us/products/allergy-relief/24-hour-allergy-relief" drugName="Allegra"/>
             <DrugPoint drugLink="https://www.benadryl.com/" drugName="Benadryl"/>
