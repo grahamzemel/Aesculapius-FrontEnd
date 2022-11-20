@@ -3,6 +3,8 @@
 	import HomePage from "./routes/home.svelte";
 	import Index from "./routes/index.svelte";
 	import Contact from "./routes/contact.svelte";
+	import News from "./routes/news.svelte";
+
 	export let url = "";
 	import ModeSwitcher from "./ModeSwitcher.svelte";
 	var menu = document.getElementById("menu");
@@ -43,7 +45,7 @@
 				<li>
 					<Link
 						class="text-white opacity-70 hover:opacity-100 duration-300"
-						to="/">Recent News</Link
+						to="news">Recent News</Link
 					>
 				</li>
 				<li>
@@ -61,6 +63,7 @@
 		<Route path="/"><Index /></Route>
 		<Route path="home"><HomePage /></Route>
 		<Route path="contact"><Contact /></Route>
+		<Route path="news"><News /></Route>
 
 	</div>
 </Router>
