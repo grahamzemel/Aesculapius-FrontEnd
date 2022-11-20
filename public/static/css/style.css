@@ -119,7 +119,7 @@ textarea-webkit-scrollbar {
   float: right;
   margin-right: 0.5em;
   background: #818181c7;
-  color: slategray;
+  color: white;
   margin-bottom: 0.15em;
   font-size: 13px;
   max-width: 65%;
@@ -156,11 +156,13 @@ blockquote {
   border: 0;
   padding-left: 15px;
   height: 40px;
+  color: slategray;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .keypad {
   /* display: none;  */
-  background: white;
+  background: #e4e4e4;
   height: 50px;
   position: absolute;
   bottom: 0px;

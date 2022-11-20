@@ -42,7 +42,7 @@ var chatbothtml = `
           <!--Add the name of the bot here -->
           <span class="chat_header_title">Aesculapius Bot</span>
           <span class="dropdown-trigger" href="#" data-target="dropdown1">
-            <i class="material-icons">[X]</i>
+            <i class="material-icons">X</i>
           </span>
           <!-- Dropdown menu-->
           <ul id="dropdown1" class="dropdown-content">
