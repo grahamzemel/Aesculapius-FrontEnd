@@ -4,9 +4,10 @@
 	import Index from "./routes/index.svelte";
 	import Contact from "./routes/contact.svelte";
 	import News from "./routes/news.svelte";
-
+	import DrugFacts from "./routes/drugfacts.svelte";
 	export let url = "";
 	import ModeSwitcher from "./ModeSwitcher.svelte";
+    import DrugPoint from "./components/DrugPoint.svelte";
 	var menu = document.getElementById("menu");
 	function toggleMenu() {
 		console.log("toggleMenu");
@@ -39,7 +40,7 @@
 				<li>
 					<Link
 						class="text-white opacity-70 hover:opacity-100 duration-300"
-						to="/">Drug Facts</Link
+						to="drugfacts">Drug Facts</Link
 					>
 				</li>
 				<li>
@@ -64,6 +65,7 @@
 		<Route path="home"><HomePage /></Route>
 		<Route path="contact"><Contact /></Route>
 		<Route path="news"><News /></Route>
+		<Route path="drugfacts"><DrugFacts /></Route>
 
 	</div>
 </Router>

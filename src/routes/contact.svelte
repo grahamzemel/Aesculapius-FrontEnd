@@ -11,18 +11,18 @@
         };
         message.addEventListener("input", handleMessageCount);
     });
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     let myForm = document.getElementById("myform");
-    //     let formData = new FormData(myForm);
-    //     fetch("/", {
-    //         method: "POST",
-    //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //         body: new URLSearchParams(formData).toString(),
-    //     })
-    //         .then(() => console.log("Form successfully submitted"))
-    //         .catch((error) => alert(error));
-    // };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        let myForm = document.getElementById("myform");
+        let formData = new FormData(myForm);
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString(),
+        })
+            .then(() => console.log("Form successfully submitted"))
+            .catch((error) => alert(error));
+    };
 </script>
 
 <svelte:head>
@@ -45,7 +45,7 @@
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="name"
                     name="name"
-                    placeholder="Jane"
+                    placeholder="Jane Doe"
                 />
             </div>
         </div>
@@ -87,9 +87,7 @@
         <div class="md:flex md:items-center">
             <div class="md:w-1/3">
                 <button
-                    class="shadow bg-slate-400 hover:bg-slate-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                    type="submit"
-                    id="submitButton"
+                    class="shadow bg-slate-400 hover:bg-slate-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" on:submit={handleSubmit}
                 >
                     Send
                 </button>

@@ -5,11 +5,14 @@
 <Tailwindcss/>
 <div class="bg-white dark:bg-gray-900">
     <div class="container py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">BOT GOES HERE</h1>
         <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">How was this helpful tool <span class="underline decoration-slate-500">created</span>?</h1>
         
         <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+            Through a dedicated team of developers and designers, we were able to create a tool that is both easy to use and provides accurate information.
+        </p>
+        <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
+            These 4 developers include:
+            <a href="grahamzemel.com">Graham Zemel</a>, <a href="https://darrenweng.com/">Darren Weng</a>, <a href="https://gabeweng.com">Gabriel Weng</a>, and <a href="https://github.com/BestLocation">Surya Rao</a>.
         </p>
         
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">

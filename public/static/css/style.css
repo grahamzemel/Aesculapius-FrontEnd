@@ -7,16 +7,18 @@
   height: 500px;
   bottom: 5%;
   position: fixed;
-  background: #fff;
+  background: #f8f8f8;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.16), 0 0px 5px 0 #00000096;
+  z-index: 10;
 }
 
 .chat_header {
   height: 60px;
-  background: #060dcfc7;
+  background: #818181c7;
   border-radius: 10px 10px 0px 0px;
   padding: 5px;
+  padding-right: 5rem;
   font-size: 20px;
 }
 
@@ -116,8 +118,8 @@ textarea-webkit-scrollbar {
   padding: 10px;
   float: right;
   margin-right: 0.5em;
-  background: #060dcfc7;
-  color: white;
+  background: #818181c7;
+  color: slategray;
   margin-bottom: 0.15em;
   font-size: 13px;
   max-width: 65%;
@@ -178,7 +180,7 @@ blockquote {
   padding: 5px;
   font-size: 20px;
   cursor: pointer;
-  color: #060dcfc7;
+  color: #818181c7;
 }
 
 #sendButton {
@@ -192,7 +194,7 @@ blockquote {
   padding: 5px;
   font-size: 20px;
   cursor: pointer;
-  color: #060dcfc7;
+  color: #818181c7;
 }
 
 .imgProfile {
@@ -229,7 +231,7 @@ blockquote {
 
 .dropdown-content li > a,
 .dropdown-content li > span {
-  color: #060dcfc7;
+  color: #818181c7;
 }
 
 @keyframes animateElement {
@@ -336,7 +338,7 @@ blockquote {
 
 .order,
 #closeContents {
-  color: #060dcfc7;
+  color: #818181c7;
 }
 
 .metadata_2,
@@ -444,7 +446,7 @@ div.content_data::-webkit-scrollbar {
 
 .menuChips {
   display: block;
-  background: #060dcfc7;
+  background: #818181c7;
   color: #fff;
   text-align: center;
   padding: 5px;
@@ -607,7 +609,7 @@ div.content_data::-webkit-scrollbar {
   font-size: 15px;
   /* font-weight: 600; */
   padding: 5px;
-  /* color:#060dcfc7; */
+  /* color:#818181c7; */
   color: #ffffff;
   cursor: pointer;
 }
@@ -669,14 +671,14 @@ div.content_data::-webkit-scrollbar {
 
 .chip {
   background-color: white;
-  border: 1px solid#060dcfc7;
-  color: #060dcfc7;
+  border: 1px solid#818181c7;
+  color: #818181c7;
   font-weight: bolder;
   text-align: center;
 }
 
 .chip:hover {
-  background-color: #060dcfc7;
+  background-color: #818181c7;
   color: white;
 }
 
@@ -728,7 +730,7 @@ div.content_data::-webkit-scrollbar {
 
 .collapsible-header {
   font-weight: bold;
-  color: #060dcfc7;
+  color: #818181c7;
 }
 
 ul.collapsible > li:first-child .collapsible-header {
@@ -736,7 +738,7 @@ ul.collapsible > li:first-child .collapsible-header {
 }
 
 ul.collapsible > li:last-child .collapsible-header {
-  color: #060dcfc7;
+  color: #818181c7;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -768,7 +770,7 @@ ul.collapsible > li:last-child .collapsible-body {
 .botTyping > div {
   width: 10px;
   height: 10px;
-  background-color: #060dcfc7;
+  background-color: #818181c7;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
@@ -835,7 +837,7 @@ video:focus {
 
 .tap-target {
   color: #fff;
-  background: #060dcfc7;
+  background: #818181c7;
 }
 
 .pdf_attachment {
@@ -852,7 +854,7 @@ video:focus {
   height: 100%;
   font-size: 25px;
   padding: 7% !important;
-  background-color: #060dcfc7;
+  background-color: #818181c7;
   color: white;
 }
 
@@ -864,5 +866,5 @@ video:focus {
 }
 
 .pdf_link a {
-  color: #060dcfc7;
+  color: #818181c7;
 }
