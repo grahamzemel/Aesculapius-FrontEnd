@@ -3,7 +3,7 @@
     import FeaturedCard from '../components/FeaturedCard.svelte';
 </script>
 <Tailwindcss/>
-<div class="bg-white dark:bg-gray-900">
+<div class="bg-white dark:bg-[#303849]">
     <div class="container py-10 mx-auto">
         <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">How was this helpful tool <span class="underline decoration-slate-500">created</span>?</h1>
         

@@ -37,10 +37,10 @@
 		</dl>
 	  </div>
 	  <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-		<img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
-		<img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
-		<img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
-		<img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100">
+		<img src="https://c.neevacdn.net/image/fetch/s--0dIjX-_6--/https%3A//tse3.mm.bing.net/th%3Fid%3DOIP.3w0QHB0o3ZaHIDAEgMBJ9AHaHf%26pid%3DApi?savepath=th" alt="Hospital clipart to showcase medicine relevance to rod of aesculapius." class="rounded-lg bg-gray-100">
+		<img src="https://c.neevacdn.net/image/fetch/s--zawDJVpi--/https%3A//gnosticwarrior.com/wp-content/uploads/2014/08/Rod_of_asclepius.jpg?savepath=Rod_of_asclepius.jpg" alt="Rod of Aesculapius shown." class="rounded-lg bg-gray-100">
+		<img src="https://c.neevacdn.net/image/fetch/s--23Fe9wQ5--/https%3A//i.etsystatic.com/22903982/r/il/6c5ae2/2470014154/il_1588xN.2470014154_knfl.jpg?savepath=il_1588xN.2470014154_knfl.jpg" alt="Depiction / statue of Aesculapius, the roman god of healing." class="rounded-lg bg-gray-100">
+		<img src="https://c.neevacdn.net/image/fetch/s--Mt8y4CXs--/https%3A//i.pinimg.com/736x/d1/6f/1c/d16f1c96fa9e6eb465db91356f36373a--circle-of-life-asclepius.jpg?savepath=d16f1c96fa9e6eb465db91356f36373a--circle-of-life-asclepius.jpg" alt="Depicting the difference between the Caduceus and the Rod of Aesculapius" class="rounded-lg bg-gray-100">
 	  </div>
 	</div>
   </div>

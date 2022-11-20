@@ -37,7 +37,7 @@ var chatbothtml = `
       <div id="modal1" class="modal">
         <canvas id="modal-chart"></canvas>
       </div>
-      <div class="widget">
+      <div class="widget mb-[4rem]">
         <div class="chat_header">
           <!--Add the name of the bot here -->
           <span class="chat_header_title">Aesculapius Bot</span>
