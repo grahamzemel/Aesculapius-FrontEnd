@@ -2,7 +2,7 @@
 	<div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6  lg:max-w-7xl lg:grid-cols-2 lg:px-8">
 	  <div>
 		<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" id="info">What is the Aesculapius Bot?</h2>
-		<p class="mt-4 text-gray-500">This bot, named after the Roman god of medicine - Aesculapius - is designed to assist the healthcare system through multiple functions.</p>
+		<p class="mt-4 text-gray-500">This bot, named after the Roman god of medicine - Aesculapius - is designed to assist the healthcare system through multiple functions. If you have any questions you can contact us at (940)-217-2964</p>
   
 		<dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
 		  <div class="border-t border-gray-200 pt-4">
