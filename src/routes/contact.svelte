@@ -36,7 +36,7 @@
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
                 <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    class="block uppercase tracking-wide text-[#c4ced9] text-xs font-bold mb-2"
                     for="name"
                 >
                     Name
@@ -52,7 +52,7 @@
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
                 <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    class="block uppercase tracking-wide text-[#c4ced9] text-xs font-bold mb-2"
                     for="email"
                 >
                     E-mail
@@ -69,7 +69,7 @@
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
                 <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    class="block uppercase tracking-wide text-[#c4ced9] text-xs font-bold mb-2"
                     for="message"
                 >
                     Message
