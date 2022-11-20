@@ -93,9 +93,6 @@ document.getElementById('chatbot').innerHTML = chatbothtml;
 window.addEventListener('load', () => {
   // initialization
   $(document).ready(() => {
-    // Bot pop-up intro
-    $("div").removeClass("tap-target-origin");
-
     // drop down menu for close, restart conversation & clear the chats.
     $(".dropdown-trigger").dropdown();
 

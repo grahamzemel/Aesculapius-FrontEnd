@@ -1,87 +1,100 @@
 <script>
-    import { onMount } from 'svelte'
+    import { onMount } from "svelte";
     onMount(async function () {
-    const handleMessageCount = () => {
-      var msg = document.getElementById('message').value
-      var msgCount = document.getElementById('message-count')
-      var msgLength = msg.length
-      const maxLength = 1000
-      var charLeft = maxLength - msgLength
-      msgCount.innerText = charLeft
-    }
-    message.addEventListener('input', handleMessageCount)
-    })
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        let myForm = document.getElementById('myform')
-        let formData = new FormData(myForm)
-        fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString()
-        })
-        .then(() => console.log('Form successfully submitted'))
-        .catch((error) => alert(error))
-    }
+        const handleMessageCount = () => {
+            var msg = document.getElementById("message").value;
+            var msgCount = document.getElementById("message-count");
+            var msgLength = msg.length;
+            const maxLength = 1000;
+            var charLeft = maxLength - msgLength;
+            msgCount.innerText = charLeft;
+        };
+        message.addEventListener("input", handleMessageCount);
+    });
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     let myForm = document.getElementById("myform");
+    //     let formData = new FormData(myForm);
+    //     fetch("/", {
+    //         method: "POST",
+    //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //         body: new URLSearchParams(formData).toString(),
+    //     })
+    //         .then(() => console.log("Form successfully submitted"))
+    //         .catch((error) => alert(error));
+    // };
 </script>
+
 <svelte:head>
-  <title>Aesculapius | Contact</title>
+    <title>Aesculapius | Contact</title>
 </svelte:head>
 
-<div class="flex flex-col justify-evenly">
-    <hr/>
-    <p
-      class="flex justify-center items-baseline gap-4 !mb-2 title_header px-10 text-[#000000] dark:text-[#FFFFFF]"
-    >
-      Contact
-    </p>
-    <hr />
-    <section id="contact" class="justify-center">
-      <div class="title-container scroll-in">
-        <p class="section-subtitle">
-            Have a question or want to get in touch?
-        </p>
-      </div>
-      <div class="contact-content">
-        <div class="form-container scroll-in">
-          <p class="success-message" />
-          <form
-            name="contact"
-            on:submit{handleSubmit}
-            method="POST"
-            netlify
-            netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="form-name" value="contact" />
-            <div class="input-container">
-              <input type="text" id="name" name="name" required class="form-input" />
-              <label for="name">Name:</label>
+<div class="absolute container justify-center top-[8rem] left-[6rem]">
+    <h4>Contact the Aesculapius Team!</h4>
+    <br />
+    <form class="w-full max-w-lg">
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="name"
+                >
+                    Name
+                </label>
+                <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                    id="name"
+                    name="name"
+                    placeholder="Jane"
+                />
             </div>
-            <div class="input-container">
-              <input type="email" id="email" name="email" required class="form-input" />
-              <label for="email">Email:</label>
-            </div>
-            <div class="input-container">
-              <input type="text" id="subject" name="subject" class="form-input" />
-              <label for="subject">Subject (optional):</label>
-            </div>
-            <div class="input-container">
-              <textarea required maxlength="1000" id="message" name="message" class="form-input" />
-              <label for="message">Message:<br /> </label>
-              <small>
-                <span id="message-count">1000</span> characters
-              </small>
-            </div>
-            <div>
-              <button
-                class="bg-opacity-50 dark:bg-opacity-50 text-gray-800 bg-[#606060] dark:bg-[#606060] dark:text-gray-200 px-8 text-opacity-50"
-                type="submit"
-                id="submitButton">Submit</button
-              >
-            </div>
-          </form>
         </div>
-      </div>
-    </section>
-  </div>
-  
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="email"
+                >
+                    E-mail
+                </label>
+                <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="youremail@domain.com"
+                />
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="message"
+                >
+                    Message
+                </label>
+                <textarea
+                    class="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                    name="message"
+                    id="message"
+                />
+                <small>
+                    <span id="message-count">1000</span> characters
+                </small>
+            </div>
+        </div>
+        <div class="md:flex md:items-center">
+            <div class="md:w-1/3">
+                <button
+                    class="shadow bg-slate-400 hover:bg-slate-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                    type="submit"
+                    id="submitButton"
+                >
+                    Send
+                </button>
+            </div>
+            <div class="md:w-2/3" />
+        </div>
+    </form>
+</div>
