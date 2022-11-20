@@ -261,7 +261,7 @@ function setBotResponse(response) {
 function send(message) {
     $.ajax({
         //url: rasa_server_url+"/webhooks/rest/webhook",
-        url: rasa_server_url+"/echome",
+        url: rasa_server_url,
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({ message, sender: sender_id }),
