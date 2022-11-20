@@ -26,8 +26,8 @@
 		  </div>
   
 		  <div class="border-t border-gray-200 pt-4">
-			<dt class="font-medium text-gray-900">Economic Factors</dt>
-			<dd class="mt-2 text-sm text-gray-500">...</dd>
+			<dt class="font-medium text-gray-900">Access Bot</dt>
+			<dd class="mt-2 text-sm text-gray-500">To Access the bot just click on the Rod of Aesculapius (The snake rod)</dd>
 		  </div>
   
 		  <div class="border-t border-gray-200 pt-4">
