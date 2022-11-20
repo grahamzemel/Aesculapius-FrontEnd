@@ -6,23 +6,23 @@
   
 		<dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
 		  <div class="border-t border-gray-200 pt-4">
-			<dt class="font-medium text-gray-900">Access To Virtual Doctors</dt>
-			<dd class="mt-2 text-sm text-gray-500">...</dd>
+			<dt class="font-medium text-gray-900">Access To Doctors</dt>
+			<dd class="mt-2 text-sm text-gray-500">This bot can direct you to doctors near you, just ask the bot to find doctors near your location and it will display 3 hosptals near you.</dd>
 		  </div>
   
 		  <div class="border-t border-gray-200 pt-4">
 			<dt class="font-medium text-gray-900">Suggesting Helpful Resources</dt>
-			<dd class="mt-2 text-sm text-gray-500">...</dd>
+			<dd class="mt-2 text-sm text-gray-500">For important health care information please go to the CDC website at cdc.gov</dd>
 		  </div>
   
 		  <div class="border-t border-gray-200 pt-4">
 			<dt class="font-medium text-gray-900">Emergency Action</dt>
-			<dd class="mt-2 text-sm text-gray-500">...</dd>
+			<dd class="mt-2 text-sm text-gray-500">If you are facing an Emergency, please call 911 or your local emergency service if you are outside the United States.</dd>
 		  </div>
   
 		  <div class="border-t border-gray-200 pt-4">
 			<dt class="font-medium text-gray-900">Recent News</dt>
-			<dd class="mt-2 text-sm text-gray-500">...</dd>
+			<dd class="mt-2 text-sm text-gray-500">On this website, you can click a button to receive the latest health news from the New York Times!</dd>
 		  </div>
   
 		  <div class="border-t border-gray-200 pt-4">
@@ -32,7 +32,7 @@
   
 		  <div class="border-t border-gray-200 pt-4">
 			<dt class="font-medium text-gray-900">Considerations</dt>
-			<dd class="mt-2 text-sm text-gray-500">...</dd>
+			<dd class="mt-2 text-sm text-gray-500">Please Do not Use this bot for medical health advice. It can not diagnose you. It only compares your symptoms to the symptoms of other conditions. It can not tell you if you have the condition. Never disregard a medical professional says due to what the bot tells you. If you have any questions about your health, please seak help from a medical professional.</dd>
 		  </div>
 		</dl>
 	  </div>
