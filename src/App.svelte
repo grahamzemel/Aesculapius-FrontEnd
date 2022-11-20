@@ -2,6 +2,7 @@
 	import { Router, Route, Link } from "svelte-routing";
 	import HomePage from "./routes/home.svelte";
 	import Index from "./routes/index.svelte";
+	import Contact from "./routes/contact.svelte";
 	export let url = "";
 	import ModeSwitcher from "./ModeSwitcher.svelte";
 	var menu = document.getElementById("menu");
@@ -36,12 +37,6 @@
 				<li>
 					<Link
 						class="text-white opacity-70 hover:opacity-100 duration-300"
-						to="/">Potential Diagnosis</Link
-					>
-				</li>
-				<li>
-					<Link
-						class="text-white opacity-70 hover:opacity-100 duration-300"
 						to="/">Drug Facts</Link
 					>
 				</li>
@@ -54,7 +49,7 @@
 				<li>
 					<Link
 						class="text-white opacity-70 hover:opacity-100 duration-300"
-						to="/">Contact</Link
+						to="contact">Contact</Link
 					>
 				</li>
 
@@ -65,5 +60,7 @@
 	<div>
 		<Route path="/"><Index /></Route>
 		<Route path="home"><HomePage /></Route>
+		<Route path="contact"><Contact /></Route>
+
 	</div>
 </Router>

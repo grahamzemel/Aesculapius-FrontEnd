@@ -7,10 +7,7 @@
             md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
 
             <li>
-                <a class="text-white opacity-70 hover:opacity-100 duration-300" href="/">Aesculapius</a>
-            </li>
-            <li>
-                <a class="text-white opacity-70 hover:opacity-100 duration-300" href="/">Potential Diagnosis</a>
+                <a class="text-white opacity-70 hover:opacity-100 duration-300" href="home">Aesculapius</a>
             </li>
             <li>
                 <a class="text-white opacity-70 hover:opacity-100 duration-300" href="/">Drug Facts</a>
@@ -19,7 +16,7 @@
                 <a class="text-white opacity-70 hover:opacity-100 duration-300" href="/">Recent News</a>
             </li>
             <li>
-                <a class="text-white opacity-70 hover:opacity-100 duration-300" href="/">Contact</a>
+                <a class="text-white opacity-70 hover:opacity-100 duration-300" href="contact">Contact</a>
             </li>
         </ul>
     </div>

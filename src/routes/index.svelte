@@ -18,3 +18,6 @@
 <hr>
 <Intro />
 <Footer />
+<svelte:head>
+  <title>Aesculapius | Home</title>
+</svelte:head>

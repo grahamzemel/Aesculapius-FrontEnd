@@ -24,3 +24,6 @@
     </div>
 </section>
 <Footer/>
+<svelte:head>
+  <title>Aesculapius | Bot</title>
+</svelte:head>
