@@ -40,7 +40,7 @@
 				<li>
 					<Link
 						class="text-white opacity-70 hover:opacity-100 duration-300"
-						to="drugfacts">Drug Facts</Link
+						to="drugfacts">Medications</Link
 					>
 				</li>
 				<li>
