@@ -1,6 +1,5 @@
 <script lang="ts">
     import Tailwindcss from '../Tailwindcss.svelte';
-    import Footer from '../Footer.svelte';
     import FeaturedCard from '../components/FeaturedCard.svelte';
 </script>
 <Tailwindcss/>
@@ -23,7 +22,6 @@
         </div>
     </div>
 </section>
-<Footer/>
 <svelte:head>
   <title>Aesculapius | Bot</title>
 </svelte:head>
