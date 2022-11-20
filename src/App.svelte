@@ -1,32 +1,62 @@
-<script lang="ts">
-	import Tailwindcss from './Tailwindcss.svelte';
-	// import Users from './Users.svelte';
-	import Header from './Header.svelte';
-	import Footer from './Footer.svelte';
-	import Intro from './Intro.svelte';
-	//create navigator to navigate between pages
-	const navigator = {
-		pages: ['home', 'about', 'contact'],
-		currentPage: 'home',
-		goToPage: function (page) {
-			this.currentPage = page;
-			history.pushState({}, '', page);
-		},
-	};
-</script>
-<Tailwindcss />
-<Header />
-<div class="bg-offwhite">
-<div class="p-4 mx-auto text-center max-w-xl">
-	<h1 class="uppercase text-4xl leading-normal font-thin text-title">Welcome!</h1>
-	<p class="text-primary mt-[3rem]">
-		Welcome to the <strong class="rounded">Aesculapius</strong> bot!
-	</p>
-	<div id="chatbot">initial content</div>
-	<script type="text/javascript" src="static/js/chatbot.js"></script>
-	<!-- <Users/> -->
+<script>
+    import { Router, Route, Link } from "svelte-routing";
+	import HomePage from "./routes/home.svelte";
+	import Index from "./routes/index.svelte";
+	export let url = "";
+	import ModeSwitcher from "./ModeSwitcher.svelte";
+    var menu = document.getElementById('menu');
+    function toggleMenu() {
+        console.log('toggleMenu');
+    menu.toggleAttribute('hidden')
+	menu.toggleAttribute('w-full');
+	menu.toggleAttribute('h-screen');
+    };
+  </script>
+  		<Router url="{url}">
+
+  <div class="w-full h-16 bg-[#505560] drop-shadow-lg">
+    <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
+		<Link class="text-slate-400 text-xl font-bold italic" to="/">Aesculapius <span class="text-slate-200">Bot</span></Link>
+
+        <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-700 z-50
+            md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
+
+            <!-- <li class="md:hidden z-90 fixed top-4 right-6">
+                <a href="/" class="text-right text-white text-4xl"
+                    on:click="{toggleMenu}">&times;</a>
+            </li> -->
+
+            <li>
+				<Link  class="text-white opacity-70 hover:opacity-100 duration-300" to="home">Home</Link>
+            </li>
+            <li>
+				<Link  class="text-white opacity-70 hover:opacity-100 duration-300"to="/">Potential Diagnosis</Link>
+            </li>
+            <li>
+				<Link  class="text-white opacity-70 hover:opacity-100 duration-300" to="/">Drug Facts</Link>
+            </li>
+            <li> 
+				<Link  class="text-white opacity-70 hover:opacity-100 duration-300" to="/">Recent News</Link>
+            </li>
+            <li>
+				<Link  class="text-white opacity-70 hover:opacity-100 duration-300" to="/">Contact</Link>
+            </li>
+
+            <ModeSwitcher />
+        </ul>
+		
+        <!-- This is used to open the menu on mobile devices -->
+        <div class="flex items-center md:hidden">
+            <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
+                on:click="{toggleMenu}">
+                &#9776;
+            </button>
+        </div>
+    </div>
 </div>
+<div>
+	<Route path="/"><Index/></Route>
+	<Route path="home"><HomePage/></Route>
 </div>
-<hr>
-<Intro />
-<Footer />
+  </Router>
+	

@@ -7,15 +7,12 @@
 	menu.toggleAttribute('w-full');
 	menu.toggleAttribute('h-screen');
     };
-    export {};
 </script>
 <div class="w-full h-16 bg-[#505560] drop-shadow-lg">
     <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
-        <!-- Logo Here -->
         <a class="text-slate-400 text-xl font-bold italic" href="/">Aesculapius<span
                 class="text-slate-200">Bot</span></a>
 
-        <!-- Menu links here -->
         <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-700 z-50
             md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
 
@@ -43,7 +40,6 @@
             <ModeSwitcher />
         </ul>
 
-        <!-- This is used to open the menu on mobile devices -->
         <div class="flex items-center md:hidden">
             <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
                 on:click="{toggleMenu}">
