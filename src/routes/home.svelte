@@ -3,7 +3,7 @@
     import FeaturedCard from '../components/FeaturedCard.svelte';
 </script>
 <Tailwindcss/>
-<section class="bg-white dark:bg-gray-900">
+<div class="bg-white dark:bg-gray-900">
     <div class="container py-10 mx-auto">
         <h1>BOT GOES HERE</h1>
         <br>
@@ -21,7 +21,7 @@
             <FeaturedCard title="elegance" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet" link="/"/>
         </div>
     </div>
-</section>
+</div>
 <svelte:head>
   <title>Aesculapius | Bot</title>
 </svelte:head>
